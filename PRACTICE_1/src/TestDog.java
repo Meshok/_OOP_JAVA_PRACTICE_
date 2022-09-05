@@ -10,5 +10,15 @@ public class TestDog {
         d1.intoHumanAge();
         d2.intoHumanAge();
         d3.intoHumanAge();
+
+        System.out.println("===================");
+
+        Dog d4 = new Dog();
+        System.out.println(d4);
+        d4.intoHumanAge();
+        d4.setName(d2.getName());
+        d4.setAge(d2.getAge());
+        System.out.println(d4);
+        d4.intoHumanAge();
     }
 }
