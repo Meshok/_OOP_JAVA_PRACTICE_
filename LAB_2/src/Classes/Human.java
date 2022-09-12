@@ -61,6 +61,14 @@ public class Human {
             this.existence = existence;
         }
 
+        public Boolean getExistence() {
+            return existence;
+        }
+
+        public void setExistence(Boolean existence) {
+            this.existence = existence;
+        }
+
         public void shake() {
             if (existence) {
                 System.out.println("Shaking head");
@@ -86,6 +94,14 @@ public class Human {
             this.existence = existence;
         }
 
+        public Boolean getExistence() {
+            return existence;
+        }
+
+        public void setExistence(Boolean existence) {
+            this.existence = existence;
+        }
+
         public void shake() {
             if (existence) {
                 System.out.println("Shaking hand");
@@ -108,6 +124,14 @@ public class Human {
         }
 
         public Leg(Boolean existence) {
+            this.existence = existence;
+        }
+
+        public Boolean getExistence() {
+            return existence;
+        }
+
+        public void setExistence(Boolean existence) {
             this.existence = existence;
         }
 
