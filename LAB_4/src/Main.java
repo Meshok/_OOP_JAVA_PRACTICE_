@@ -7,7 +7,6 @@ public class Main {
         Planet planet = new Planet(true,true, "Земля");
 
         System.out.println(dog.getName());
-        System.out.println(auto.getName());
         System.out.println(planet.getName());
     }
 }
