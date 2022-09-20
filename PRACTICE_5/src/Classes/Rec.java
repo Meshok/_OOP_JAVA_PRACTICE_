@@ -10,9 +10,7 @@ public class Rec {
             res = 0;
         } else {
             res = max();
-            if (res < a) {
-                res = a;
-            }
+            res = res < a ? a : res;
         }
         return res;
     }
