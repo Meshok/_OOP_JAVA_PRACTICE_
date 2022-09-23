@@ -1,5 +1,7 @@
 import Classes.*;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Student[] array = {
@@ -10,7 +12,8 @@ public class Main {
             System.out.println(it);
         }
 
-        new SortingStudentsByGPA().sortByGPA(array);
+        Arrays.sort(array, new SortingStudentsByGPA());
+
         System.out.println("===========================");
         for (Student it: array) {
             System.out.println(it);
