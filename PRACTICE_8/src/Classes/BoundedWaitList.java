@@ -14,7 +14,7 @@ public class BoundedWaitList <E> extends WaitList <E> {
 
     @Override
     public void add(E element) {
-        super.add(element);
+        if (queue.size() < capacity) super.add(element);
     }
 
     @Override
