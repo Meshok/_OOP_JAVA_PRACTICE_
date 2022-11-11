@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Complex;
 
 public interface ComplexAbstractFactory {
     Complex createComplex();

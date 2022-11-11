@@ -1,4 +1,4 @@
-package Classes;
+package Classes.Complex;
 
 class Complex {
     private int real;
