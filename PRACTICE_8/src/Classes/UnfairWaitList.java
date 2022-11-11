@@ -11,6 +11,7 @@ public class UnfairWaitList <E> extends WaitList <E> {
 
     public void moveToBack(E element) {
         remove(element);
+
         queue.add(element);
     }
 }

@@ -1,7 +1,7 @@
 package Classes;
 
 public class BoundedWaitList <E> extends WaitList <E> {
-    private int capacity;
+    private final int capacity;
 
     public BoundedWaitList(int capacity) {
         super();
